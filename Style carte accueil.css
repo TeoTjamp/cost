@@ -1,0 +1,43 @@
+
+#bandeouquandqui {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.Carrétop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    font-family: 'PassionOne';
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+}
+
+#bandecomment {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.Carrébottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    font-family: 'PassionOne';
+    font-size: larger;
+    margin-top: 40px;
+}
+
+#Carrécomment {
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}

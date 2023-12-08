@@ -7,7 +7,7 @@ html {
     max-width: fit-content;
 }
 
-header {
+header { /** Taille Header, flexbox, placement au premier plan fixe et position devant **/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,14 +19,14 @@ header {
     top: 0;
 }
 
-.Boxlien {
+.Boxlien { /** Taille des flexboxs contenant les liens et alignement **/
     width: 20%;
     text-align: center;
 }
 
 
 
-a {
+a { /** Lien du haut en Gris sombre**/
     text-decoration: none;
     font-family: 'PassionOne';
     color: black;
@@ -34,7 +34,7 @@ a {
     font-size: x-large;
 }
 
-a:hover {
+a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
     text-decoration: underline;
     font-family: 'PassionOne';
     color: black;
@@ -42,7 +42,7 @@ a:hover {
     font-size: x-large;
 }
 
-#bannieresite {
+#bannieresite { /** Taille de la bannière et placement en arrière plan**/
     width: 100%;
     height: 100%;
     object-fit: contain;

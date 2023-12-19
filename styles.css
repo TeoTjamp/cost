@@ -265,7 +265,7 @@ body {
 /* button submit du formulaire */
 
 .submitbutton {
-  margin-top: 400px; /* essayer de centrer la carte des 3 options */
+  margin-top: 100px; /* essayer de centrer la carte des 3 options */
   text-align: center;
   position: relative;
   margin-bottom: 50px;
@@ -288,7 +288,6 @@ body {
 }
 section {
   display: flex;
-
 }
 
 .textgauche {
@@ -310,12 +309,14 @@ section {
 
 .imageZ {
   display: flex;
-  align-items: center;
   margin-bottom: 50px;
 }
 
-.textdroite p {
-  margin: 0;
+.imageZ p {
+  text-align:center;
+  white-space: nowrap;
+  align-items: center;
+  background-color: blueviolet;
 }
 
 .textdroite img {

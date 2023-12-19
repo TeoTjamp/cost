@@ -1,0 +1,32 @@
+footer{
+    background-color: blue;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration-style: none;
+}
+
+#footertop {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Entreprise{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+#Plus{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}

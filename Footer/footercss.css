@@ -1,11 +1,28 @@
+@font-face {
+    font-family:'PassionOne';
+    src: url(/polices/PassionOne-Regular.ttf);
+}
+
 footer{
-    background-color: blue;
+    background-color: black;
+    opacity: 0.7;
     color: white;
+    max-height: fit-content;
 }
 
 a{
     color: white;
-    text-decoration-style: none;
+    text-decoration: none;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+}
+
+h2{
+    font-family:'PassionOne';
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 #footertop {
@@ -16,17 +33,19 @@ a{
 #Entreprise{
     display: flex;
     flex-direction: column;
-    background-color: green;
 }
 
 #Contact{
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
 #Plus{
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+}
+
+#footerbottom {
+    display: flex;
+    justify-content: center;
 }

@@ -293,33 +293,31 @@ section {
 
 .textgauche {
   width: 500px;
+  height: 350px;
   margin-right: auto;
   margin-left: 0;
   align-items: center;
   white-space: nowrap;
   text-align:center;
+  background-color: blue;
 }
 
 .textdroite {
   width: 500px;
-  align-items: center;
+  height: 350px;
+  background-color: red;
+}
+
+.imageZ {
   display: flex;
-}
-.textdroite img{
-  margin-left: auto;
-  margin-right: 0;
   align-items: center;
-  white-space: nowrap;
-  text-align: center;
-}
-.textdroite p{
-  margin-right: auto;
-  margin-left: 0;
-  align-items: center;
-  white-space: nowrap;
-  text-align: center;
+  margin-bottom: 50px;
 }
 
+.textdroite p {
+  margin: 0;
+}
 
-
-
+.textdroite img {
+  margin-right: 40px;
+}

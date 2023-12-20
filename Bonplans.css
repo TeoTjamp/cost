@@ -1,8 +1,9 @@
-.section1 {
+.card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 #Londres {

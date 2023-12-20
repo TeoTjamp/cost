@@ -48,3 +48,27 @@ a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus 
     object-fit: contain;
     z-index: -99;
 }
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Londres {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+#Paris {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.stylebordure{
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}

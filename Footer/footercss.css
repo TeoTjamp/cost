@@ -1,13 +1,13 @@
 @font-face {
-    font-family:'PassionOne';
-    src: url(/polices/PassionOne-Regular.ttf);
+    font-family: 'PassionOne' ;
+    src: url(polices/PassionOne-Regular.ttf);
 }
 
 footer{
     background-color: black;
     opacity: 0.7;
     color: white;
-    max-height: fit-content;
+    height: 300px;
 }
 
 a{
@@ -18,7 +18,7 @@ a{
 }
 
 h2{
-    font-family:'PassionOne';
+    font-family: 'PassionOne';
 }
 
 a:hover{
@@ -45,7 +45,3 @@ a:hover{
     flex-direction: column;
 }
 
-#footerbottom {
-    display: flex;
-    justify-content: center;
-}

@@ -7,8 +7,17 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
     font-family: 'PassionOne';
+}
+
+.textcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'PassionOne';
+    font-size: x-large;
+    height: 30px;
 }
 
 #images {

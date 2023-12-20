@@ -1,0 +1,325 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #cccccc; /* Couleur de fond du corps */
+}
+
+/* La grosse div ou il y a les 3 cartes */
+
+.card-container {
+  display: flex;
+  align-items: stretch; /* tous les éléments même hauteur */
+  margin-top: -140px;
+  }
+
+/* class des trois petites */
+
+.card {
+  padding: 20px;
+  margin: 100px; /* Gerer l'espace entre les cartes */
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  width: 300px; /* changer la taille des cartes c ici */
+  height: 300px;
+}
+
+.stylebordure {
+  box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Effet de survol avec léger zoom */
+}
+
+.card h2 {
+  color: #333;
+}
+
+/* la carte 1 */
+
+.card input {
+  display: block;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 10px;
+  border: px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+
+.card input:hover,
+.card input:focus {
+  border-color: #007bff; /* Couleur bordure lors du survol ou du focus */
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* le texte est en un seul bloque pas de retour a la ligne */
+#textar {
+  align-items: center;
+  white-space: nowrap;
+  }
+/* fin de carte 1 */
+
+/* debut de carte 2 */
+
+.card input[type="date"] {
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card select,
+.card button {
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* la carte 3 est ici */
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.option img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.option input {
+  width: px;
+  appearance: none;
+  height: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  margin-right: 5px;
+}
+
+.option input:hover {
+  opacity: 1;
+}
+
+.option input::-webkit-slider-thumb {
+  appearance: none;
+  width: 5px;
+  height: 5px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.option input::-moz-range-thumb {
+  width: 5px;
+  height: 5px;
+  background: #007bff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.option input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.option label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 80px;
+  height: 40px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.option label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.option input:checked + label {
+  background: #bada55;
+}
+
+.option input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.option label:active:after {
+  width: 130px;
+}
+
+/* fin de bouton des options pour le transport */
+
+/* debut de la grande carte des options */
+
+.Recherche {
+  position: absolute;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  width: 500px; /* changer la taille de la carte c ici */
+  height: 350px;
+  margin-left: 30%;
+}
+
+.Recherche:hover {
+  transform: scale(1.05); /* Effet de survol avec léger zoom */
+}
+
+.triangle-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin: 60px;
+  margin-left: 25%;
+  transition: transform 1s;
+}
+
+.Recherche:hover {
+  transform: scale(1.05); /* Effet de survol avec léger zoom */
+}
+
+.image1 {
+  top: 0;
+  left: 100px;
+}
+.image2 {
+  top: 200px;
+  left: 0;
+}
+.image3 {
+  top: 200px;
+  left: 200px;
+}
+.center-image {
+  top: 100px;
+  left: 100px;
+}
+
+.Recherche img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.Recherche h2 {
+  color: #333;
+}
+
+/* button submit du formulaire */
+
+.submitbutton {
+  margin-top: 100px; /* essayer de centrer la carte des 3 options */
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.submitbutton input[type="submit"] {
+  padding: 20px 100px;
+  font-size: 16px;
+  background-color: #4767a3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitbutton input[type="submit"]:hover {
+  background-color: #150b41;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+section {
+  display: flex;
+}
+
+.textgauche {
+  width: 500px;
+  height: 350px;
+  margin-right: auto;
+  margin-left: 0;
+  align-items: center;
+  white-space: nowrap;
+  text-align:center;
+  background-color: blue;
+}
+
+.textdroite {
+  width: 500px;
+  height: 350px;
+  background-color: red;
+}
+
+.imageZ {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.imageZ p {
+  text-align:center;
+  white-space: nowrap;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.textdroite img {
+  margin-right: 40px;
+}

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'PassionOne';
+  src: url(/header/PassionOne-Regular.ttf);
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -28,6 +34,7 @@ body {
   transition: transform 0.3s ease-in-out;
   width: 300px; /* changer la taille des cartes c ici */
   height: 300px;
+  text-align: center;
 }
 
 .stylebordure {
@@ -41,6 +48,7 @@ body {
 
 .card h2 {
   color: #333;
+  font-family: passionOne;
 }
 
 /* la carte 1 */
@@ -68,6 +76,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 15px;
+}
+
+.card input[type="checkbox"] {
+  transform: scale(1.5); /* taille de la checkbox */
+  margin-right: 5px;
 }
 
 .checkbox-container label {
@@ -76,9 +90,12 @@ body {
 }
 
 /* le texte est en un seul bloque pas de retour a la ligne */
-#textar {
+.textar {
   align-items: center;
   white-space: nowrap;
+  margin-left: 25px;
+  font-family: passionOne;
+  font-size: x-large;
   }
 /* fin de carte 1 */
 
@@ -206,7 +223,7 @@ body {
 
 /* fin de bouton des options pour le transport */
 
-/* debut de la grande carte des options */
+/* debut de la grande carte des options ou dis la carte 4*/
 
 .Recherche {
   position: absolute;
@@ -216,6 +233,19 @@ body {
   width: 500px; /* changer la taille de la carte c ici */
   height: 350px;
   margin-left: 30%;
+}
+
+.Recherche .triangle-image:hover {
+  transform: scale(1.2); /* Effet de survol avec léger zoom */
+}
+
+/* Ajoutez également une transition pour l'effet de survol */
+.Recherche .triangle-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Recherche .triangle-image.selected {
+  opacity: 1;
 }
 
 .Recherche:hover {
@@ -299,27 +329,42 @@ section {
   align-items: center;
   white-space: nowrap;
   text-align:center;
-  background-color: blue;
+  font-family: passionOne;
+  font-size:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 .textdroite {
   width: 500px;
   height: 350px;
-  background-color: red;
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.premierf {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Aligner le contenu verticalement au centre */
 }
 
 .imageZ {
   display: flex;
-  margin-bottom: 50px;
 }
 
-.imageZ p {
-  text-align:center;
-  white-space: nowrap;
-  align-items: center;
-  background-color: blueviolet;
+.imageZ img {
+  width: 50px; /* taille image */
+  margin-right: 14px;
 }
 
-.textdroite img {
-  margin-right: 40px;
+.textP {
+  flex-grow: 1; /* le texte prend l'espace disponible */
+  text-align: center;
+  font-family: passionOne;
+  font-size:20px;
 }

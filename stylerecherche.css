@@ -1,0 +1,47 @@
+/* Ajoutez votre style pour la page des résultats ici */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f2f2f2; /* Couleur de fond du corps */
+}
+
+
+#Boxbanniere {
+    margin: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    height: 300px;
+}
+
+.stylebordure {
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: #333;
+}

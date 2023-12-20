@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesaccueil.css" />
-    <link rel="stylesheet" href="headercss.css">
+    <link rel="stylesheet" href="/header/styleheader.css" />
     <title>Mon Site avec Cartes</title>
   </head>
   <body>
-
     <header>
       <div class="Boxlien"><a href="#">Le slow tourisme: c'est quoi ?</a></div>
       <div class="Boxlien"><a href="#">Bon plan</a></div>
-      <div id="boxlogo"><img src="Image/Logo.png" alt="logocost" id="logo"></div>
+      <div id="boxlogo">
+        <img src="/header/Logo.png" alt="logocost" id="logo" />
+      </div>
       <div class="Boxlien"><a href="#">S'inscrire</a></div>
       <div class="Boxlien"><a href="#">Se connecter</a></div>
-  </header>
-  <div id="Boxbanniere">
-      <img src="Image/BANNIERE2.png" alt="Banniere" id="bannieresite">
-  </div>
-    <form action="#" method="get" class="form">
+    </header>
+    <div id="Boxbanniere">
+      <img src="/header/BANNIERE2.png" alt="Banniere" id="bannieresite" />
+    </div>
+    <form action="pagerecherche.html" method="get" class="form">
       <div class="card-container">
         <div class="card stylebordure">
           <h2>Ou</h2>
@@ -41,7 +42,8 @@
           </label>
 
           <div class="checkbox-container">
-            <label for="allerRetourCheckbox" id="textar">Aller-retour</label>
+            <p class="textar">Aller-retour</p>
+            <label for="allerRetourCheckbox" id="textar"></label>
             <input type="checkbox" id="allerRetourCheckbox" />
           </div>
         </div>
@@ -80,21 +82,21 @@
       <section>
         <div class="textgauche">
           <h2>ADAPTEZ VOTRE TRAJET A VOS ENVIES</h2>
-          <p>RAPIDE OU TRANQUILLE</p>
-          <p>UN MIX DES DEUX</p>
-          <p>CLIQUEZ SUR LA ROUE POUR FAIRE VOTRE CHOIX</p>
+          <p>RAPIDE OU TRANQUILLE ?</p>
+          <p>UN MIX DES DEUX ?</p>
+          <p>CLIQUEZ SUR LA ROUE POUR FAIRE VOTRE CHOIX ?</p>
         </div>
 
         <div class="Recherche stylebordure">
           <h2>Comment</h2>
           <div class="triangle-image image1">
-            <img src="/images/Mixed.png" alt="Image 1" />
+            <img src="/images/mixed.svg" alt="Image 1" />
           </div>
           <div class="triangle-image image2">
             <img src="/images/slow.svg" alt="Image 2" />
           </div>
           <div class="triangle-image image3">
-            <img src="/images/Slow.png" alt="Image 3" />
+            <img src="/images/fast.svg" alt="Image 3" />
           </div>
           <div class="triangle-image center-image">
             <img src="/images/109617.png" alt="Image 4" />
@@ -102,21 +104,30 @@
         </div>
 
         <div class="textdroite">
-          <div class="imageZ">
-          <img src="/images/slow.svg" alt="solution respectueuse" />
-          <p>Solution la plus respectueuse de l'environement</p> 
-        </div>
-          <div class="imageZ">
-          <img src="/images/slow.svg" alt="solution respectueuse" />
-          <p>Compromis entre sobriété et rapidité</p> 
-        </div>
-          <div class="imageZ">
-          <img src="/images/slow.svg" alt="solution respectueuse" />
-          <p>Solution la plus rapide</p> 
-        </div>
-
-
-
+          <div class="premierf">
+            <div class="imageZ">
+              <img src="/images/Mixed.svg" alt="solution mixte" />
+            </div>
+            <div class="textP">
+              <p>Compromis entre sobriété et rapidité</p>
+            </div>
+          </div>
+          <div class="premierf">
+            <div class="imageZ">
+              <img src="/images/slow.svg" alt="solution respectueuse" />
+            </div>
+            <div class="textP">
+              <p>Solution la plus respectueuse de l'environement</p>
+            </div>
+          </div>
+          <div class="premierf">
+            <div class="imageZ">
+              <img src="/images/fast.svg" alt="solution rapide" />
+            </div>
+            <div class="textP">
+              <p>Solution la plus rapide</p>
+            </div>
+          </div>
         </div>
       </section>
       <div class="submitbutton">

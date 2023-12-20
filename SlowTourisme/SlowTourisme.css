@@ -2,12 +2,14 @@
     font-family: 'PassionOne';
     src: url(SlowTourisme/header/PassionOne-Regular.ttf);
 }
+
 h2{
     font-family: 'PassionOne';
     font-size: x-large;
     color: black;
     opacity: 0.7;
 }
+
 h3{
     font-family: 'PassionOne';
     font-size: large;
@@ -26,6 +28,7 @@ h3{
     width: 40%;
     justify-content: center;
 }
+
 #citation{
     font-family: 'PassionOne';
     font-size: large;

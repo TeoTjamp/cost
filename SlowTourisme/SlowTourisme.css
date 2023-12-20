@@ -2,30 +2,55 @@
     font-family: 'PassionOne';
     src: url(SlowTourisme/header/PassionOne-Regular.ttf);
 }
-
-#slowbackground{
-    width: 100%;
-}
-
-#boxprendretemps{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: -900px;
-   
-}
-
-#prendretemps{
-    display: flex;
-    height: 150px;
-    width: fit-content;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+h2{
     font-family: 'PassionOne';
+    font-size: x-large;
     color: black;
     opacity: 0.7;
-    font-size: xx-large;
+}
+h3{
+    font-family: 'PassionOne';
+    font-size: large;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Boxslowtourisme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slowimage{
+    width: 40%;
+    justify-content: center;
+}
+#citation{
+    font-family: 'PassionOne';
+    font-size: large;
+    color: black;
+    opacity: 0.7;
+}
+
+p{
+    font-family: 'PassionOne';
+    font-size: small;
+    color: black;
+    opacity: 0.7;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#Boxexplication{
+    display: flex;
+    justify-content: center;
+}
+
+#Explication{
+    width: 50%;
+    justify-content: center;
 }
 
 .stylebordure{

@@ -1,47 +1,64 @@
 @font-face {
     font-family: 'PassionOne' ;
-    src: url(polices/PassionOne-Regular.ttf);
+    src: url(PassionOne-Regular.ttf);
 }
 
 footer{
-    background-color: black;
-    opacity: 0.7;
-    color: white;
-    height: 300px;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
 }
 
-a{
-    color: white;
+footer a{
+    color: black;
+    opacity: 0.7;
     text-decoration: none;
     font-family: 'PassionOne';
     padding-bottom: 5px;
+    font-size: small;
 }
 
 h2{
     font-family: 'PassionOne';
+    
 }
 
-a:hover{
+footer a:hover{
     text-decoration: underline;
+    color: black;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
 }
 
 #footertop {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#footerbottom{
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
 
 #Entreprise{
     display: flex;
     flex-direction: column;
+    height: 200px;
 }
 
 #Contact{
     display: flex;
     flex-direction: column;
+    height: 200px;
 }
 
 #Plus{
     display: flex;
     flex-direction: column;
+    height: 200px;
 }
 

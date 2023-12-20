@@ -10,7 +10,7 @@ footer{
     height: 300px;
 }
 
-a{
+footer a{
     color: white;
     text-decoration: none;
     font-family: 'PassionOne';
@@ -21,7 +21,7 @@ h2{
     font-family: 'PassionOne';
 }
 
-a:hover{
+footer a:hover{
     text-decoration: underline;
 }
 

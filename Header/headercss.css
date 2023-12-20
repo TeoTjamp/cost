@@ -3,9 +3,6 @@
     src: url(polices/PassionOne-Regular.ttf);
 }
 
-html {
-    max-width: fit-content;
-}
 
 header { /** Taille Header, flexbox, placement au premier plan fixe et position devant **/
     display: flex;
@@ -17,6 +14,7 @@ header { /** Taille Header, flexbox, placement au premier plan fixe et position 
     z-index: 99;
     position: sticky;
     top: 0;
+    width: 100%;
 }
 
 .Boxlien { /** Taille des flexboxs contenant les liens et alignement **/

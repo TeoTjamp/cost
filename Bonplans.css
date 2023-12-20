@@ -11,7 +11,7 @@
     font-family: 'PassionOne';
 }
 
-#Londres {
+#images {
     display: flex;
     flex-direction: column;
     max-width: 30%;
@@ -19,27 +19,6 @@
     border-radius: 10px;
 }
 
-#Paris {
-    display: flex;
-    flex-direction: column;
-    max-width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
-    border-radius: 10px;
-}
-
-#Berlin {
-    max-width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
-    border-radius: 10px;
-
-}
-
-#Rome {
-    max-width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
-    border-radius: 10px;
-
-}
 
 .stylebordure{
     box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;

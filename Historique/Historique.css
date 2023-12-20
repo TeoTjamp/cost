@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(/Historique/Footer/PassionOne-Regular.ttf);
+}
+
+#boxTitre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-top: -30px;
+}
+
+#carréTitre{
+    display: flex;
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+
+#boxTrajets{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#carréTrajets{
+    display: flex;
+    border-color: black;
+    border-style:groove;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+#carte{
+    height: 95%;
+    width: 35%;
+    background-color: rgb(172, 18, 18);
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+#gauchetrajet{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 55%;
+    background-color: rgb(43, 188, 24);
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+.partie{
+    height: 22%;
+    width: 95% ;
+    background-color: aqua;
+    margin 10px;
+}

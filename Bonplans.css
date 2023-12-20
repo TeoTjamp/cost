@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(polices/PassionOne-Regular.ttf);
+}
 .card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    font-family: 'PassionOne';
 }
 
 #Londres {
@@ -23,6 +28,13 @@
 }
 
 #Berlin {
+    max-width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+
+}
+
+#Rome {
     max-width: 30%;
     box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
     border-radius: 10px;

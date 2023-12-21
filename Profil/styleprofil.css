@@ -39,6 +39,7 @@ h6,
 h1 {
   font-family: 'PassionOne';
   font-weight: 800px;
+  font-size: 60px;
   font-style: normal;
   display: flex;
   flex-direction: row;

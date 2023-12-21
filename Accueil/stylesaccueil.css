@@ -346,6 +346,10 @@ section {
   justify-content: space-between;
 }
 
+.textgauche p{
+  font-family: PassionOne;
+}
+
 
 .textdroite {
   width: 500px;

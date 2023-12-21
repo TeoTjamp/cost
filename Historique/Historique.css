@@ -74,20 +74,19 @@
     height: auto;
     width: 95%;
     border-style: groove;
-    border
 }
 
-
-#gauchetrajet{
+#gauchetrajet {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     height: 95%;
     width: 60%;
     font-size: xx-large;
     font-family: 'PassionOne';
 }
+
 
 .partie{
     height: 22%;

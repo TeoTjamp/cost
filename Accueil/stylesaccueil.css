@@ -13,7 +13,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100%;
-  background-color: #cccccc; /* Couleur de fond du corps */
+ 
 }
 
 /* La grosse div ou il y a les 3 cartes */
@@ -48,6 +48,10 @@ body {
 
 .card h2 {
   color: #333;
+  font-family: passionOne;
+}
+
+.Recherche h2{
   font-family: passionOne;
 }
 
@@ -101,32 +105,32 @@ body {
 
 /* debut de carte 2 */
 
-.card input[type="date"] {
-  width: calc(100% - 20px);
-  box-sizing: border-box;
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.card select,
-.card button {
-  width: calc(100% - 20px);
-  box-sizing: border-box;
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-.calendar-container {
+.calendrier-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.calendrier-container img{
+  width: 50px;
+  height: 50px;
+}
+
+
+input[type="date"] {
+  appearance: none; /* Supprime le style par défaut du navigateur */
+  padding: 8px; /* Ajoute un espacement interne */
+  border: 1px; /* Ajoute une bordure */
+  font-size: 10px; /* Ajuste la taille de la police */
+  font-family: passionOne;
+}
+
+/* Style lorsqu'il est en focus */
+input[type="date"]:focus {
+  outline: none; /* Supprime la bordure de focus par défaut */
+  border-color: #0077cc; /* Change la couleur de la bordure lorsqu'il est en focus */
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5); /* Ajoute une légère ombre */
 }
 
 /* la carte 3 est ici */
@@ -138,14 +142,20 @@ body {
   margin-right: 30px;
 }
 
-.option img {
+
+#handicap{
+width: 90px;
+height: 90px;
+margin-left: 30px;
+}
+
+#animal{
   width: 50px;
   height: 50px;
-  margin-left: 30px;
+  margin-left: 45px;
 }
 
 .option input {
-  width: px;
   appearance: none;
   height: 5px;
   background: #ddd;

@@ -24,7 +24,7 @@ header { /** Taille Header, flexbox, placement au premier plan fixe et position 
 
 
 
-a { /** Lien du haut en Gris sombre**/
+header a { /** Lien du haut en Gris sombre**/
     text-decoration: none;
     font-family: 'PassionOne';
     color: black;
@@ -33,7 +33,7 @@ a { /** Lien du haut en Gris sombre**/
     white-space: nowrap;
 }
 
-a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
+header a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
     text-decoration: underline;
     font-family: 'PassionOne';
     color: black;

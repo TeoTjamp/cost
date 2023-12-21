@@ -34,31 +34,48 @@
 
 #carréTrajets{
     display: flex;
-    border-color: black;
-    border-style:groove;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
-    height: 400px;
+    height: 800px;
     background-color: white;
     font-size: xx-large;
     font-family: 'PassionOne';
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+#droitetrajet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 35%;
 }
 
 #carte{
-    height: 95%;
-    width: 35%;
+    height: 72%;
+    width: 95%;
     background-color: rgb(172, 18, 18);
     font-size: xx-large;
     font-family: 'PassionOne';
 }
 
+#infos{
+    background-color: blue;
+    height: 22%;
+    width: 95%;
+}
+
+
 #gauchetrajet{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     height: 95%;
-    width: 55%;
-    background-color: rgb(43, 188, 24);
+    width: 60%;
     font-size: xx-large;
     font-family: 'PassionOne';
 }
@@ -66,6 +83,88 @@
 .partie{
     height: 22%;
     width: 95% ;
-    background-color: aqua;
-    margin 10px;
+    border-style: groove;
 }
+
+#partie1{
+    display: flex;
+    justify-content: space-between;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#partie1a{
+width: 30%;
+border-style: groove;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+}
+
+#partie1b{
+width: 20%;
+border-style: groove;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+}
+
+#partie1c{
+ width: 50%;
+ border-style: groove;
+ display: flex;
+justify-content: center;
+border-radius: 10px;
+}
+
+#partie2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#partie2a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    
+}
+
+
+#p2adépart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+#p2adirection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p2adirtrain{
+    background-color: blue;
+    color: yellow;
+    font-size: large;
+}
+
+#p2adirnumtrain{
+    font-size: large;
+}
+
+#p2aarrivée{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+#partie2b{
+    height: 50%;
+}
+

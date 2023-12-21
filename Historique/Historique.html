@@ -28,39 +28,99 @@
     <div id="boxTrajets">
     <div id="carréTrajets">
             <div id="gauchetrajet">
-                <div id="partie1" class="partie">
-                    <div id="partie1a">Statut</div>
-                    <div id="partie1b">Date</div>
-                    <div id="partie1c">Infos Supp</div>
-                </div>
-                <div id="partie2" class="partie">
-                    <div id="partie2a">
-                        <div id ="p2adépart"> 
-                            <div id="p2adépartville">PARIS</div>
-                            <div id="p2adépartgare">Gare du Nord</div>
-                        </div>
-                        <div id ="p2adirection">
-                            <div id="p2adirflèche">----> </div>
-                            <div id="p2adirtrain">Eurostar</div>
-                            <div id="p2adirnumtrain">N°9023 voie 12 sans arrêt</div>
-                        </div>
-                        <div id ="p2aarrivée"> 
-                            <div id="p2arrivéeville">LONDRES</div>
-                            <div id="p2aarrivéegare">St Pancras International</div>
+                <div id="partie1">
+                    <div id="partie1a">
+                        <div id="partie1anom" class="partie1Titre">STATUT</div>
+                        <div id="partie1astatut">EN COURS</div>
+                    </div>
+                    <div id="partie1b">
+                        <div id="partie1bnom" class="partie1Titre">DATE</div>
+                        <div id="partie1bdate">21/12/2023</div>
+                    </div>
+                    <div id="partie1c">
+                        <div class="partie1Titre">INFOS TRAJETS</div>
+                        <div id="partie1cbottom">
+                            <div class="boxp1cbottom"><img src="Animal.png" alt="chien" id="chien"></div>
+                            <div class="boxp1cbottom" ><img src="Toggle on.png" alt="toggleon" id="toggleon"> </div>
+                            <div class="boxp1cbottom" ><img src="Handicap.png" alt="handicap" id="handicap"></div>
+                            <div class="boxp1cbottom" ><img src="toggle off.png" alt="toggleoff" id="toggleoff"></div>
                         </div>
                     </div>
-                    <div id="partie2b">
-                        <div id ="p2btrain"><img src="Historique/Train Paris Londres.png" alt="ParisLondresTrain" id="TrainPL"> </div>
-                        <div id ="p2bco2"> </div>
-                        <div id ="p2bdirect"> </div>
-                    </div>
                 </div>
-                <div id="partie3" class="partie"></div>
-                <div id="partie4" class="partie"></div>
+                <div id="Partie2" class="Partie">
+                    <div class="PartieA"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville"> PARIS</div>
+                            <div class="Nomgare"> Gare du nord </div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="Train Paris Londres.png" alt="trainPL" id="TrainPL" class="Imagegare"></Div>
+                    </div>
+                    <div class="PartieB"> 
+                        <Div class="PartieFLECHE"> ---></Div>
+                        <div class="PartieNomtrain" id="EUROSTAR"> EUROSTAR </div>
+                        <div class="PartieNumTrain">n°9321 voie 7</div>
+                    </div>
+                    <div class="PartieC"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville"> LONDRES</div>
+                            <div class="Nomgare"> Saint Pancras International </div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="PL CO2.png" alt="CO2PL" id="CO2PL" class="Imagegare"></Div>
+                    </div>
+
+                </div>
+                <div id="partie3" class="Partie">
+                    <div class="PartieA"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville"> LONDRES</div>
+                            <div class="Nomgare"> Saint Pancras International</div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="WalkLL.png" alt="WalkLL" id="walkLL" class="Imagegare"></Div>
+                    </div>
+                    <div class="PartieB"> 
+                        <Div class="PartieFLECHE"> ---></Div>
+                        <div class="PartieNomtrain" > VOS JAMBES </div>
+                        <div class="PartieNumTrain"></div>
+                    </div>
+                    <div class="PartieC"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville">LONDRES</div>
+                            <div class="Nomgare"> Gare de King's Cross</div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="PL CO2.png" alt="CO2PL" id="CO2PL" class="Imagegare"></Div>
+                    </div>
+
+                </div>
+                <div id="partie4" class="Partie">
+                    <div class="PartieA"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville"> LONDRES</div>
+                            <div class="Nomgare"> Gare de King's Cross </div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="Train Londres Edhimbourg.png" alt="trainLE" id="TrainLE" class="Imagegare"></Div>
+                    </div>
+                    <div class="PartieB"> 
+                        <Div class="PartieFLECHE"> ---></Div>
+                        <div class="PartieNomtrain" id="LNER"> LNER </div>
+                        <div class="PartieNumTrain">n°GR6340 voie 4</div>
+                    </div>
+                    <div class="PartieC"> 
+                        <Div class="PartieGare">
+                            <div class="Nomville">EDIMBOURG</div>
+                            <div class="Nomgare"> Waverley</div>
+                        </Div>
+                        <Div class="PartieImage"> <img src="PL CO2.png" alt="CO2PL" id="CO2PL" class="Imagegare"></Div>
+                    </div>
+
+
+                </div>
             </div>
             <div id="droitetrajet">
-                <div id="infos"> </div>
-                <div id="carte"> </div>
+                <div id="trajet"> 
+                    <div id="trajetnom"> PARIS - EDIMBOURG</div>
+                    <div id="trajettype"><img src="Slow.png" alt="slow" id="slow"></div>
+                </div>
+                <div id="carte"><img src="Carte Ecosse.png" alt="carteecosse" id="carteecosse"> </div>
             </div>
         </div>
     </div>

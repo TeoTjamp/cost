@@ -3,20 +3,24 @@
     src: url(polices/PassionOne-Regular.ttf);
 }
     
-   
+.main-content {
+    display: flex;
+    justify-content: center;
+}
 
   
 .container {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
     border-radius: 10px;
-    width: 50%;
+    width: 20%;
     margin-right: 500px;
     margin-left: 500px;
-    padding: 50px;
+    padding: 40px;
     font-family: 'PassionOne';
     display: flex ;
     flex-direction: column;
+    align-items: center;
 }  
 
 h2,
@@ -43,9 +47,26 @@ h1 {
   margin-top: 50px;
 }
 
-.card-body {
+
+
+.bouton {
+  background-color: rgb(74, 74, 253);
+  font-family: 'PassionOne';
+  font-size: medium;
+  text-align: center;
+  padding: 10px ;
+  margin: 20px;
+  margin-left: 1px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+  color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
 }
 
-
+.bouton:hover {
+  background-color: rgb(15, 15, 180);
+}

@@ -4,24 +4,19 @@
 }
     
    
-figcaption,
-footer,
-main,
-nav,
-section {
-  display: block;
-}
+
   
 .container {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
     border-radius: 10px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 50%;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 50px;
     font-family: 'PassionOne';
+    display: flex ;
+    flex-direction: column;
 }  
 
 h2,
@@ -39,14 +34,18 @@ h6,
 
 h1 {
   font-family: 'PassionOne';
-  font-weight: 600;
+  font-weight: 800px;
+  font-style: normal;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.card-body {
+  align-items: center;
   justify-content: center;
 }
 
 
-
-.body {
-
-}

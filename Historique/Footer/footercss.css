@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'PassionOne' ;
+    src: url(PassionOne-Regular.ttf);
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    opacity: 1;
+}
+
+footer h2{
+    font-family: 'PassionOne';
+    color:  white;
+    font-size: x-large;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    color: white;
+    opacity: 1;
+}
+
+#footertop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#footerbottom{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#Entreprise{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Plus{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+

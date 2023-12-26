@@ -1,0 +1,799 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(/polices/PassionOne-Regular.ttf);
+}
+
+
+header { /** Taille Header, flexbox, placement au premier plan fixe et position devant **/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    padding: 0px;
+    background-color: white;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+.Boxlien { /** Taille des flexboxs contenant les liens et alignement **/
+    width: 20%;
+    text-align: center;
+}
+
+
+
+a { /** Lien du haut en Gris sombre**/
+    text-decoration: none;
+    font-family: 'PassionOne';
+    color: black;
+    opacity: 0.7;
+    font-size: x-large;
+}
+
+a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
+    text-decoration: underline;
+    font-family: 'PassionOne';
+    color: black;
+    opacity: 1;
+    font-size: x-large;
+}
+
+#bannieresite { /** Taille de la bannière et placement en arrière plan**/
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -99;
+}
+
+.stylebordure{
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+
+.centered-element{
+ 
+
+
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 100px;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 70%; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  /* la carte 1 */
+  
+  .card input {
+    display: block;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px;
+    border: px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  
+  .card input:hover,
+  .card input:focus {
+    border-color: 6489E8; /* Couleur bordure lors du survol ou du focus */
+  }
+  
+  .checkbox-container {
+    display: flex;
+  }
+  
+  .checkbox-container label {
+    font-size: 14px;
+    color: D9D9D9;
+  }
+  
+  /* le texte est en un seul bloque pas de retour a la ligne */
+  #textar {
+    align-items: center;
+    white-space: nowrap;
+    }
+  /* fin de carte 1 */
+  
+  /* debut de carte 2 */
+  
+ 
+
+  
+  .card select,
+  .card button {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  form {
+    font-family: 'PassionOne';
+    src: url(/PassionOne-Regular.ttf);
+
+  }
+  
+h1 {
+    font-family: 'PassionOne';
+    src: url(/PassionOne-Regular.ttf);
+}
+
+  html, body {
+    width: 100 px;
+    height: 100 px;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.slider-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    overflow: hidden;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+    background: #1c87c9;
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+@font-face {
+    font-family: 'PassionOne' ;
+    src: url(PassionOne-Regular.ttf);
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    opacity: 1;
+}
+
+footer h2{
+    font-family: 'PassionOne';
+    color:  white;
+    font-size: x-large;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    color: white;
+    opacity: 1;
+}
+
+#footertop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#footerbottom{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#Entreprise{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Plus{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+
+
+header { /** Taille Header, flexbox, placement au premier plan fixe et position devant **/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    padding: 0px;
+    background-color: white;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+.Boxlien { /** Taille des flexboxs contenant les liens et alignement **/
+    width: 20%;
+    text-align: center;
+}
+
+form {
+    @font-face {
+        font-family: 'PassionOne';
+        src: url(/PassionOne-Regular.ttf);
+    }
+    
+    html {
+        max-width: fit-content;
+    }
+    
+    header { /** Taille Header, flexbox, placement au premier plan fixe et position devant **/
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        padding: 0px;
+        background-color: white;
+        z-index: 99;
+        position: sticky;
+        top: 0;
+    }
+    
+    .Boxlien { /** Taille des flexboxs contenant les liens et alignement **/
+        width: 20%;
+        text-align: center;
+    }
+    
+    
+    
+    a { /** Lien du haut en Gris sombre**/
+        text-decoration: none;
+        font-family: 'PassionOne';
+        color: black;
+        opacity: 0.7;
+        font-size: x-large;
+    }
+    
+    a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
+        text-decoration: underline;
+        font-family: 'PassionOne';
+        color: black;
+        opacity: 1;
+        font-size: x-large;
+    }
+    
+    #bannieresite { /** Taille de la bannière et placement en arrière plan**/
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        z-index: -99;
+    }
+    
+    .stylebordure{
+        box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+        border-radius: 10px;
+    }
+    
+    
+    .centered-element{
+     
+    
+    
+        border: 3px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto; 
+        margin-top: 100px;
+        margin-bottom: auto;
+        text-align: center;
+        background-color: #fff;
+        transition: transform 0.3s ease-in-out;
+        width: 70%; 
+      }
+      
+      .card:hover {
+        transform: scale(1.05); 
+      }
+      
+      .card h2 {
+        color: #333;
+      }
+      
+      /* la carte 1 */
+      
+      .card input {
+        display: block;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        margin: 10px auto;
+        padding: 10px;
+        border: px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: border-color 0.3s ease-in-out;
+        text-align: center;
+      }
+      
+      
+      .card input:hover,
+      .card input:focus {
+        border-color: 6489E8; /* Couleur bordure lors du survol ou du focus */
+      }
+      
+      .checkbox-container {
+        display: flex;
+      }
+      
+      .checkbox-container label {
+        font-size: 14px;
+        color: D9D9D9;
+      }
+      
+      /* le texte est en un seul bloque pas de retour a la ligne */
+      #textar {
+        align-items: center;
+        white-space: nowrap;
+        }
+      /* fin de carte 1 */
+      
+      /* debut de carte 2 */
+      
+     
+    
+      
+      .card select,
+      .card button {
+        width: calc(100% - 20px);
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+    
+      .button
+      
+    
+    
+      html, body {
+        width: 100 px;
+        height: 100 px;
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+    }
+    .slider-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+        height: 350px;
+        overflow: hidden;
+    }
+    .menu {
+        position: absolute;
+        left: 0;
+        z-index: 11;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+    .menu label {
+        cursor: pointer;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: #ccc;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+    }
+    .menu label:hover,.menu label:focus {
+        background: #1c87c9;
+    }
+    .slide-input{
+        opacity: 0;
+    }
+    .slide-img {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        transition: left 0s 0.75s;
+    }
+    [id^="slide"]:checked + .slide-img {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+    
+    @font-face {
+        font-family: 'PassionOne' ;
+        src: url(PassionOne-Regular.ttf);
+    }
+    
+    footer{
+        height: 200px;
+        width: 100%;
+        margin-top: 100px;;
+    }
+    
+    footer a{
+        color: white;
+        text-decoration: none;
+        font-family: 'PassionOne';
+        padding-bottom: 5px;
+        font-size: small;
+        opacity: 1;
+    }
+    
+    footer h2{
+        font-family: 'PassionOne';
+        color:  white;
+        font-size: x-large;
+        opacity: 1;
+        letter-spacing: 2px;
+    }
+    
+    footer a:hover{
+        text-decoration: underline;
+        font-family: 'PassionOne';
+        padding-bottom: 5px;
+        font-size: small;
+        color: white;
+        opacity: 1;
+    }
+    
+    #footertop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: black;
+        opacity: 0.7;
+    }
+    
+    #footerbottom{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    
+    #Entreprise{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    
+    #Contact{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    
+    #Plus{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    
+    
+    
+    
+}
+
+
+a { /** Lien du haut en Gris sombre**/
+    text-decoration: none;
+    font-family: 'PassionOne';
+    color: black;
+    opacity: 0.7;
+    font-size: x-large;
+}
+
+a:hover { /** Lien du haut en noir et souligné quand on passe la souris dessus **/
+    text-decoration: underline;
+    font-family: 'PassionOne';
+    color: black;
+    opacity: 1;
+    font-size: x-large;
+}
+
+#bannieresite { /** Taille de la bannière et placement en arrière plan**/
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -99;
+}
+
+.stylebordure{
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+
+.centered-element{
+ 
+
+
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 100px;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 70%; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  /* la carte 1 */
+  
+  .card input {
+    display: block;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px;
+    border: px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  
+  .card input:hover,
+  .card input:focus {
+    border-color: 6489E8; /* Couleur bordure lors du survol ou du focus */
+  }
+  
+  .checkbox-container {
+    display: flex;
+  }
+  
+  .checkbox-container label {
+    font-size: 14px;
+    color: D9D9D9;
+  }
+  
+  /* le texte est en un seul bloque pas de retour a la ligne */
+  #textar {
+    align-items: center;
+    white-space: nowrap;
+    }
+  /* fin de carte 1 */
+  
+  /* debut de carte 2 */
+  
+ 
+
+  
+  .card select,
+  .card button {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .button
+  
+
+
+  html, body {
+    width: 100 px;
+    height: 100 px;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.slider-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    overflow: hidden;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+    background: #1c87c9;
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+@font-face {
+    font-family: 'PassionOne' ;
+    src: url('PassionOne-Regular.ttf');
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    opacity: 1;
+}
+
+footer h2{
+    font-family: 'PassionOne';
+    color:  white;
+    font-size: x-large;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-family: 'PassionOne';
+    padding-bottom: 5px;
+    font-size: small;
+    color: white;
+    opacity: 1;
+}
+
+#footertop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#footerbottom{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#Entreprise{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#Plus{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+
+

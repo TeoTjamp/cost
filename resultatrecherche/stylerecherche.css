@@ -318,14 +318,7 @@ border-radius: 10px;
   width: 80px;
 }
 
-.backpageacc{
-  display: flex;
-  justify-content: center;
-  padding: 25px;
-  padding-top: 100px;
-}
 
-/* Style pour le conteneur principal */
 /* Style pour le conteneur principal */
 
 /* Style pour le conteneur principal */
@@ -337,21 +330,6 @@ border-radius: 10px;
   text-align: center; /* Centre le contenu du conteneur */
 }
 
-/* Style pour le fieldset */
-.testyy {
-  border: 1px solid #0077cc;
-  border-radius: 3px;
-  padding: 15px; /* Ajustement de l'espacement */
-  display: inline-block; /* Permet au fieldset d'être centré */
-}
-
-/* Style pour le legend */
-.testyy legend {
-  font-size: 1.5em; /* Ajustement de la taille de la police */
-  font-weight: bold;
-  color: #0077cc;
-  text-align: center; /* Centre le texte à l'intérieur du légende */
-}
 
 
 .submitbutton {
@@ -375,4 +353,11 @@ border-radius: 10px;
   background-color: #150b41;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
+}
+
+.backpageacc{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  padding-top: 100px;
 }

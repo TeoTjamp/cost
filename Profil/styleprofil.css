@@ -1,0 +1,73 @@
+  @font-face {
+    font-family: 'PassionOne';
+    src: url(polices/PassionOne-Regular.ttf);
+}
+    
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+  
+.container {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 40px;
+    font-family: 'PassionOne';
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}  
+
+h2,
+h3,
+h6,
+.h2,
+.h3,
+.h6 {
+  font-family: 'PassionOne';
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'PassionOne';
+  font-weight: 800px;
+  font-size: 60px;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+
+
+.bouton {
+  background-color: rgb(74, 74, 253);
+  font-family: 'PassionOne';
+  font-size: medium;
+  text-align: center;
+  padding: 10px ;
+  margin: 20px;
+  margin-left: 1px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.bouton:hover {
+  background-color: rgb(15, 15, 180);
+}

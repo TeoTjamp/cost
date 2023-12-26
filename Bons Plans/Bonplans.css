@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(polices/PassionOne-Regular.ttf);
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'PassionOne';
+    font-size: 60px;
+    
+}
+
+
+.backpageacc{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 100px;
+    font-family: passionOne;
+  }
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'PassionOne';
+    text-decoration: none;
+}
+
+.textcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'PassionOne';
+    font-size: x-large;
+    height: 30px;
+    font-weight: normal;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+
+.stylebordure{
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}

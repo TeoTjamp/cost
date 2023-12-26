@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(/Historique/Footer/PassionOne-Regular.ttf);
+}
+
+#boxTitre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-top: -30px;
+}
+
+#carréTitre{
+    display: flex;
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+
+#boxTrajets{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#carréTrajets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 650px;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'PassionOne';
+    box-shadow: rgba(0, 0, 0, 0.40) 1.5px 3px 3px 3px;
+    border-radius: 10px;
+}
+
+#droitetrajet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 35%;
+}
+
+#carte{
+    height: 76%;
+    width: 95%;
+}
+
+#carteecosse{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-style: dashed;
+    border-color: black;
+}
+
+#trajet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 95%;
+    border-style: groove;
+}
+
+#gauchetrajet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 60%;
+    font-size: xx-large;
+    font-family: 'PassionOne';
+}
+
+
+.partie{
+    height: 22%;
+    width: 95% ;
+    border-style: groove;
+}
+
+#partie1{
+    display: flex;
+    justify-content: space-between;
+    border-style: none;
+    border-radius: 10px;
+    height: 14%;
+    width: 95% ;
+    border-style: groove;
+}
+
+#partie1a{
+width: 30%;
+border-style: groove;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+}
+
+.partie1Titre{
+    font-size: large;
+}
+
+
+#partie1astatut{
+    font-size: x-large;
+    color:green
+}
+
+#partie1b{
+width: 20%;
+border-style: groove;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+}
+
+
+
+#partie1bdate{
+font-size: x-large;
+}
+
+#partie1c{
+ width: 50%;
+ border-style: groove;
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+
+#partie1cbottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.boxp1cbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Partie{
+    display: flex;
+    justify-content: space-around;
+    height: 22%;
+    width: 95% ;
+    border-style: groove;
+}
+
+.PartieA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.PartieB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
+.PartieC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.PartieGare{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.Nomville{
+    font-size: x-large;
+}
+
+.Nomgare{
+    font-size: large;
+}
+
+#EUROSTAR{
+    background-color: blue;
+    color: yellow;
+}
+
+#LNER{
+    background-color: red;
+    color: white;
+}
+.PartieImage{
+    height: 50%;
+}
+
+.Imagegare{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.backpageacc{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 100px;
+  }
+  
